@@ -57,9 +57,3 @@ cacheSolve <- function(x, ...) {
   ## return the result
   m
 }
-
-## input example as below
-MatrixA <- matrix(1:6,nrow=2,ncol=3)
-cachedMatrixA = makeCacheMatrix(MatrixA)
-cacheSolve(cachedMatrixA)
-cacheSolve(cachedMatrixA)
